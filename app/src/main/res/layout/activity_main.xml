@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/id_viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@id/id_viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+
+        <TextView
+            android:id="@+id/id_icon1"
+            android:background="@drawable/check_circle"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/id_icon2"
+            android:background="@drawable/circle"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/id_icon3"
+            android:background="@drawable/circle"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/id_icon4"
+            android:background="@drawable/circle"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
