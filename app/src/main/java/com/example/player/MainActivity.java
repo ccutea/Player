@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    private String aaa;
     private ViewPager viewPager;
     private BannerAdapter mBannerAdapter;
     private int[] img = {R.drawable.one, R.drawable.two, R.drawable.there, R.drawable.four};
